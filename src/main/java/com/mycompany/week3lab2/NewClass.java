@@ -2,14 +2,11 @@ package com.mycompany.week3lab2;
 
 public class NewClass {
     
-    int getSum(int a, int b){
-        return a+b;
-    }
     public static void main(String[] args){
+        String S1 = "Matthew Ortega";
         NewClass nc = new NewClass();
-        int x=10, y=100;
-        int z= nc.getSum(x, y);
-        System.out.println("The sum is "+ z);
+        int length = S1.length();
+        System.out.println("The number of characters is "+ length);
                
     }
 }
